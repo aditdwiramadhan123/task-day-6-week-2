@@ -1,0 +1,44 @@
+@media only screen and (max-width: 1000px) {
+  body {
+    margin: 0;
+  }
+  .navbar {
+    position: static;
+    background-color: rgba(0, 0, 0, 0);
+    height: 57px;
+    margin: 0 !important;
+  }
+
+  .navbar img {
+    margin-left: 7%;
+    width: 35px;
+    height: 35px;
+  }
+
+  .navbar .itemNavbar {
+    display: none;
+  }
+
+  .iconToggle {
+    display: block !important;
+    font-size: xx-large !important;
+    margin-right: 7%;
+  }
+
+  .itemNavbar2 ul {
+    margin: 0;
+    background-color: #9f9f9f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .itemNavbar2 ul li {
+    margin: 7px 0;
+  }
+
+  .navActive {
+    display: block;
+  }
+}
